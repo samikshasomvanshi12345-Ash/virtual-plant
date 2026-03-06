@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #2b5d2b;
+    margin: 0;
+    padding: 0;
+
+    /* Background tree image */
+    background: url('trees.jpg') no-repeat bottom center;
+    background-size: cover;
+    background-attachment: fixed; /* keeps trees in place when scrolling */
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.9); /* semi-transparent green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85); /* semi-transparent for readability */
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #2e7d32;
+}
+
+ol, ul {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: rgba(76, 175, 80, 0.9);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
